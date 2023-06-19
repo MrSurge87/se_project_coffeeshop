@@ -118,8 +118,8 @@
 
         <section id="reservation" class="reservation">
           <h3 class="reservation__title">Book a table</h3>
-          <div class="form">
-            <div class="form reservation__form">
+          <form class="form">
+            <div class="reservation__form form">
               <fieldset class="form__fieldset">
                 <!--input for user name-->
                 <label class="form__label" for="name">Name *</label>
@@ -162,11 +162,13 @@
                 />
 
                 <!--input button to submit reservation-->
+
                 <button class="form__button" type="submit" required>
                   Book a table
                 </button>
 
                 <!--checkbox to agree to terms of use-->
+
                 <label for="checkbox">
                   <input
                     class="form__checkbox"
@@ -178,7 +180,7 @@
                 </label>
               </fieldset>
             </div>
-          </div>
+          </form>
         </section>
 
         <section id="menu" class="menu"></section>
