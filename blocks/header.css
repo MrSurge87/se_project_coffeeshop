@@ -17,12 +17,12 @@
   margin-left: 80px;
   margin-top: 183px;
   margin-bottom: 0;
-
   font-family: "Inter", Arial, sans-serif;
   font-weight: 500;
   font-size: 60px;
   line-height: 72px;
   letter-spacing: -0.6px;
+  z-index: 2;
 }
 
 .header__span-accent {
@@ -43,6 +43,7 @@
   margin-bottom: 0;
   margin-left: 80px;
   padding-top: 28px;
+  z-index: 2;
 }
 
 .header__image {
@@ -51,6 +52,8 @@
   right: 5px;
   max-width: 646px;
   max-height: 568px;
+  display: flex;
+  z-index: 1;
 }
 
 .header__footer {
