@@ -2,7 +2,7 @@
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
   color: #fff;
   position: relative;
-  padding: 60px 100px 0px 80px;
+  padding: 60px 100px 0 80px;
 }
 
 .footer__content {
@@ -34,6 +34,8 @@
 
 .footer__list-item {
   margin-bottom: 0px;
+  margin-bottom: 16px;
+  list-style-type: none;
 }
 
 .footer__social-icon {
@@ -50,7 +52,7 @@
   font-size: 16px;
   line-height: 20px;
   display: flex;
-  margin-bottom: 16px;
+  text-decoration: none;
 }
 
 .footer__social-link:hover {

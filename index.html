@@ -75,21 +75,19 @@
         </div>
       </header>
 
-      <!-- RECIPE SECTION-->
+      <!-- RECIPES SECTION-->
       <main class="content">
         <section id="recipes" class="recipes">
           <h2 class="recipes__title">Recipes</h2>
-          <div class="recipes__subtitle">
+          <p class="recipes__subtitle">
             Check out some recipes we've collected for your home-brewing
             convenience
-          </div>
+          </p>
           <div class="recipes__videos">
             <div>
               <iframe
                 class="recipes__iframe"
                 src="https://www.youtube.com/embed/v_qHWgmsPrw"
-                width="560"
-                height="315"
                 title="A YouTube video"
                 allowfullscreen
               >
@@ -103,8 +101,6 @@
               <iframe
                 class="recipes__iframe"
                 src="https://www.youtube.com/embed/5MfhHg64MS8"
-                width="560"
-                height="315"
                 title="A YouTube video"
                 allowfullscreen
               >
@@ -191,7 +187,7 @@
             <div class="card">
               <!--Filter Card-->
               <h3 class="card__title">Filter</h3>
-              <menu>
+              <ul class="card__list-items">
                 <li class="card__list-item">
                   Regular (12 0z)
                   <span class="card__list-divider"></span>
@@ -221,13 +217,13 @@
                   <span class="card__list-divider"></span>
                   $1.25
                 </li>
-              </menu>
+              </ul>
             </div>
 
             <!--Espresso Card-->
             <div class="card">
               <h3 class="card__title">Espresso</h3>
-              <menu>
+              <ul class="card__list-items">
                 <li class="card__list-item">
                   Macchiato
 
@@ -252,13 +248,13 @@
                   <span class="card__list-divider"></span>
                   $10
                 </li>
-              </menu>
+              </ul>
             </div>
 
             <!--Baked Goods Card-->
             <div class="card">
               <h3 class="card__title">Baked Goods</h3>
-              <menu>
+              <ul class="card__list-items">
                 <li class="card__list-item">
                   Almond Croissant
                   <span class="card__list-divider"></span>
@@ -293,7 +289,7 @@
                   <span class="card__list-divider"></span>
                   $0.25
                 </li>
-              </menu>
+              </ul>
             </div>
           </div>
         </section>
@@ -328,10 +324,10 @@
             src="./images/logo_coffeeshop_light.svg"
             alt="White coffee shop logo"
           />
-          <div class="footer__list-item">
-            <p class="footer__social-heading">Social media</p>
-            <div class="footer__list">
-              <div class="footer__list-item">
+          <li class="footer__list-item">
+            <h3 class="footer__social-heading">Social media</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
                 <a class="footer__social-link" href="#">
                   <img
                     class="footer__social-icon"
@@ -340,8 +336,8 @@
                   />
                   Facebook
                 </a>
-              </div>
-              <div class="footer__list-item">
+              </li>
+              <li class="footer__list-item">
                 <a class="footer__social-link" href="#">
                   <img
                     class="footer__social-icon"
@@ -350,9 +346,9 @@
                   />
                   Instagram
                 </a>
-              </div>
-            </div>
-          </div>
+              </li>
+            </ul>
+          </li>
         </div>
         <p class="footer__copyright">&copy; 2023 Sergio A Mendoza-Gutierrez</p>
       </footer>
